@@ -15,6 +15,8 @@ buildscript {
 
 allprojects {
     ext {
+        versionCode = 1
+        versionName = '1.0.0'
         compileSdkVersion = 27
         minSdkVersion = 19
         targetSdkVersion = 27
@@ -24,8 +26,6 @@ allprojects {
         androidLogVersion = '1.0.0@aar'
         daggerVersion = '2.10'
         easypermissionsVersion = '1.0.1'
-        picassoVersion = '2.5.2'
-        jsoupVersion = '1.9.2'
         rxjavaVersion = '2.1.5'
         rxandroidVersion = '2.0.1'
         junitVersion = '4.12'

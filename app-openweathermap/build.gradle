@@ -6,8 +6,8 @@ android {
         applicationId "com.lakeel.altla.sample.weather.openweathermap"
         minSdkVersion project.ext.minSdkVersion
         targetSdkVersion project.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
+        versionCode project.versionCode
+        versionName project.versionName
     }
     buildTypes {
         release {
