@@ -4,11 +4,11 @@ Sample applications for using weather api services.
 
 ## Getting Started
 
-### Prepare Some API Keys
+### Prepare API Keys
 
 This project requires some cloud service API keys: OpenWeatherMap API, and Google API.
 
-Create a file with the following contents, for example `secrets.xml`:
+Create a file with the following contents, for example `secrets.xml`:
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
