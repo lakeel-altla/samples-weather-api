@@ -1,0 +1,42 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    ext {
+        compileSdkVersion = 27
+        minSdkVersion = 19
+        targetSdkVersion = 27
+        supportVersion = '27.0.1'
+        gmsVersion = '11.6.0'
+        retrofitVersion = '2.3.0'
+        androidLogVersion = '1.0.0@aar'
+        daggerVersion = '2.10'
+        easypermissionsVersion = '1.0.1'
+        picassoVersion = '2.5.2'
+        jsoupVersion = '1.9.2'
+        rxjavaVersion = '2.1.5'
+        rxandroidVersion = '2.0.1'
+        junitVersion = '4.12'
+    }
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://lakeel-altla.github.io/maven-repository' }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
