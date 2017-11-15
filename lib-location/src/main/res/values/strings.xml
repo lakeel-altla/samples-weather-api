@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">lib-location</string>
+
+    <string name="toast_permission_required">Permission required</string>
+    <string name="toast_location_settings_never_fixed">Location settings are inadequate, and cannot be fixed here. Fix
+        in Settings.
+    </string>
+    <string name="toast_enable_location">Enable location settings</string>
+
+    <string name="rationale_location">This app would like to access this device\'s location to search places.
+    </string>
+
+</resources>
